@@ -1,6 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import  Escola from "./components/Escola";
+import SobreMim from "./components/SobreMim";
+import "./index.css";
 
+<<<<<<< HEAD
 function App() {
   
   return (
@@ -19,8 +24,16 @@ function App() {
           Learn React
         </a>
       </header>
+=======
+export default function App() {
+  return(
+    <div className="font-sans">
+      <Navbar />
+      <Home />
+      <Escola />
+      <SobreMim />
+>>>>>>> feature/docs-add-readme
     </div>
   );
 }
 
-export default App;
