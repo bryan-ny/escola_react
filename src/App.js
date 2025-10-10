@@ -1,39 +1,18 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import NavBar from "./components/NavBar";
 import Home from "./components/Home";
-import  Escola from "./components/Escola";
+import Escola from "./components/Escola";
 import SobreMim from "./components/SobreMim";
 import "./index.css";
 
-<<<<<<< HEAD
-function App() {
-  
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-=======
-export default function App() {
+export default function app(){
   return(
     <div className="font-sans">
-      <Navbar />
+      <NavBar />
       <Home />
       <Escola />
       <SobreMim />
->>>>>>> feature/docs-add-readme
+
     </div>
   );
 }
-
