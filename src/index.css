@@ -37,3 +37,11 @@ section {
 padding: 100px 50px 50px;
 min-height: 100vh;
 }
+
+footer {
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+ background-color: #005fa3;
+}
