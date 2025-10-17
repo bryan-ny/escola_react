@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Escola from "./components/Escola";
 import SobreMim from "./components/SobreMim";
+import Footer from "./components/Footer";
 import "./index.css";
 
 export default function app(){
@@ -12,6 +13,7 @@ export default function app(){
       <Home />
       <Escola />
       <SobreMim />
+      <Footer/>
 
     </div>
   );
